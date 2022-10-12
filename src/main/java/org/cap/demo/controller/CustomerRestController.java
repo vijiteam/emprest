@@ -83,6 +83,13 @@ public class CustomerRestController {
 		
 		return new ResponseEntity<String>("</h1>Hello! I completed RolleOut!<h1>", HttpStatus.OK);
 	}
+	
+	@GetMapping("/hello")
+	public ResponseEntity<String> getGreetMsg(){
+		
+		
+		return new ResponseEntity<String>("</h1>Hello All! Verion2 is Ready!!!!!!<h1>", HttpStatus.OK);
+	}
 
 	@GetMapping("/customers")
 	public ResponseEntity<List<Customer>> getAllCustomers(){
