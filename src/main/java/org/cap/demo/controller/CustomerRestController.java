@@ -85,7 +85,7 @@ public class CustomerRestController {
 	}
 	
 	@GetMapping("/hello")
-	public ResponseEntity<String> getGreetMsg(){
+	public ResponseEntity<String> getHello_v2(){
 		
 		
 		return new ResponseEntity<String>("</h1>Hello All! Verion2 is Ready!!!!!!<h1>", HttpStatus.OK);
